@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" >
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <ListView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mainListView">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPlay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play">
+        </Button>
+        <Button
+            android:id="@+id/btnStop2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop">
+        </Button>
+        <Button
+            android:id="@+id/btnDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set default noise">
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>  

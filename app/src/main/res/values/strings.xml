@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Street noise</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="audio_format">Format</string>
+
+
+    <!-- Navigation Drawer-->
+    <string name="info_fr1">Play noise</string>
+    <string name="info_fr2">Record noise</string>
+    <string name="info_fr3">List records</string>
+
+
+
+    <string name="action_example">Example action</string>
+</resources>
