@@ -109,12 +109,12 @@ public class FragmentFiles extends Fragment {
               //  Toast.makeText(getActivity(),"File " + nameFileCliked + " clicked",Toast.LENGTH_LONG).show();
                 Log.d(LOG_TAG, "press on" + nameFileCliked);
 
-                // сохраняем что выбрали
+                // СЃРѕС…СЂР°РЅСЏРµРј С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё
                 sPref = getActivity().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
                 SharedPreferences.Editor ed = sPref.edit();
                 ed.putString(SAVED_TEXT, nameFileCliked);
                 ed.commit();
-                // тестирую что сохранилось
+                // С‚РµСЃС‚РёСЂСѓСЋ С‡С‚Рѕ СЃРѕС…СЂР°РЅРёР»РѕСЃСЊ
                 loadText();
 
 
@@ -139,12 +139,12 @@ public class FragmentFiles extends Fragment {
               //  Toast.makeText(getActivity(),"File nameFileToDefault " + nameFileToDefault ,Toast.LENGTH_SHORT).show();
                 Log.d(LOG_TAG, "nameFileToDefault is " + nameFileToDefault);
 
-                // сохраняем что выбрали
+                // СЃРѕС…СЂР°РЅСЏРµРј С‡С‚Рѕ РІС‹Р±СЂР°Р»Рё
                 sPref = getActivity().getSharedPreferences("MyPref", Context.MODE_PRIVATE);
                 SharedPreferences.Editor ed = sPref.edit();
                 ed.putString(SAVED_TEXT_DEFAULT, nameFileToDefault);
                 ed.commit();
-                // тестирую что сохранилось
+                // С‚РµСЃС‚РёСЂСѓСЋ С‡С‚Рѕ СЃРѕС…СЂР°РЅРёР»РѕСЃСЊ
                // loadText();
 
 
