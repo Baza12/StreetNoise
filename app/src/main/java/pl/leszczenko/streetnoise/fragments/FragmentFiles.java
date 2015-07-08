@@ -33,6 +33,7 @@ public class FragmentFiles extends Fragment {
     String filepath = Environment.getExternalStorageDirectory().getPath();
     File dir = new File(filepath, AUDIO_RECORDER_FOLDER);
 
+
     SharedPreferences sPref;
 
     final String SAVED_TEXT = "saved_text";
@@ -52,6 +53,11 @@ public class FragmentFiles extends Fragment {
 
         mainListView = (ListView) myView.findViewById(R.id.mainListView);
         mainListView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+
+               if (!dir.exists()) {
+            dir.mkdirs();
+        }
+
 
         File[] filelist = dir.listFiles();
         String[] theNamesOfFiles = new String[filelist.length];

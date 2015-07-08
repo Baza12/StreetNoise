@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
 import pl.leszczenko.streetnoise.utils.Utils;
+import pl.leszczenko.streetnoise.Record;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -34,6 +35,7 @@ public class MainActivity extends ActionBarActivity {
 
         // Покажем drawer автоматически при запуске
       //  drawerResult.openDrawer();
+      //  Record.g();
 
     }
 

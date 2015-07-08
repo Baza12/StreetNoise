@@ -59,7 +59,7 @@ public class Record extends Service {
 	}
 
 
-	private String getFilename() {
+	public String getFilename() {
 		String filepath = Environment.getExternalStorageDirectory().getPath();
 		File file = new File(filepath, AUDIO_RECORDER_FOLDER);
 
